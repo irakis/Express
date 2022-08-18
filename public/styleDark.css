@@ -1,11 +1,11 @@
 header {
-    background-color: black;
+    background-color: #000000;
 }
 
 h1 {
     font-weight: lighter;
     font-style: italic;
-    color: aqua;
+    color: #fffb00;
 }
 
 body {
