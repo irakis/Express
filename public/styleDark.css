@@ -2,12 +2,14 @@ header {
     background-color: #000000;
 }
 
-h1 {
+h1, p, a{
     font-weight: lighter;
-    font-style: italic;
-    color: #fffb00;
+    color: #cac9c9cd;
 }
 
 body {
     background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }

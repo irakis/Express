@@ -10,7 +10,7 @@ app.engine('.hbs',hbs({ extname: 'hbs', layoutsDir: './layouts', defaultLayout: 
 app.set('view engine', '.hbs')
 app.use(express.urlencoded({ extended: false }));
 
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/contact/send-message', upload.single('myFile'), (req, res) => {
   const { author, sender, title, message, myFile} = req.body;
